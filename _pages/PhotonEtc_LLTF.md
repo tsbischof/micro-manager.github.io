@@ -5,7 +5,7 @@ redirect_from: /wiki/PhotonEtc_LLTF
 layout: page
 ---
 
-## Adapter for Photon etc LLTF (laser line tunable filter)
+## Adapter for Photon etc LLTF Contrast (laser line tunable filter)
 
 <table>
 <tr>
@@ -16,8 +16,8 @@ layout: page
 </td>
 <td markdown="1">
 
-Controls the LLTF through a USB connection. Allows the user
-to get and set the wavelength.
+Controls the LLTF through a USB connection. 
+Allows the user to get and set the wavelength of the filter.
 
 </td>
 </tr>
@@ -29,7 +29,7 @@ to get and set the wavelength.
 </td>
 <td markdown="1">
 
-Thomas Bischof, Helmholtz Munich.
+Thomas Bischof, Helmholtz Munich
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ Thomas Bischof, Helmholtz Munich.
 </td>
 <td markdown="1">
 
-LGPL
+BSD
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ LGPL
 </td>
 <td markdown="1">
 
-Windows only
+Windows
 
 </td>
 </tr>
@@ -72,10 +72,11 @@ Typically this will be:
 * QtCore4.dll
 * QtXml4.dll
 
-The device should come with an XML file which describes its properties. 
+The LLTF should come with an XML file which describes its properties. 
 Typically this XML file is installed by the Photon etc installer itself, and you will not need to copy and files yourself.
 This adapter will search in the following locations for XML files:
-* `.`
+* the µManager install location 
 * `C:\Program Files\Photon etc\PHySpecV2\Devices`
 * `C:\Program Files (x86)\Photon etc\PHySpecV2\Devices`
-Any XML file starting with "M0001" will be presented as possible configuration file.
+
+Any XML file found in one of these directories and starting with "M0001" will be presented as possible a configuration file.

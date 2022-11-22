@@ -434,6 +434,7 @@ release](Download_Micro-Manager_Latest_Release).
     Controllers (USB-connected)
 -   [pgFocus](pgFocus) - Open Software/Hardware Focus
     Stabilization from [BIG](http://big.umassmed.edu)
+-   [Photon etc LLTF Contrast](PhotonEtc_LLTF) - Laser line tunable filter
 -   [Rapp](Rapp) - Rapp UGA40 photobleaching/photoactivation
     unit
 -   [SimpleAutofocus](SimpleAutofocus) - Image-based
